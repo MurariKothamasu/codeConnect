@@ -2,7 +2,7 @@ const socket = require("socket.io");
 const initializeSocket = (server) => {
   const io = socket(server, {
     cors: {
-      origin: ["http://localhost:5173", "http://13.232.136.21"],
+      origin: ["http://localhost:5173", "http://13.232.136.21", "http://codeconnects.in", "https://codeconnects.in"],
     },
   });
 
