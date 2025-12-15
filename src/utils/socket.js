@@ -1,3 +1,4 @@
+const socket = require("socket.io");
 const { Chat } = require("../models/chat");
 
 const initializeSocket = (server) => {
